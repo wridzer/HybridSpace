@@ -706,6 +706,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
@@ -1077,7 +1078,7 @@ MonoBehaviour:
   handCollider: {fileID: 0}
   clearanceCheckMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   hand: {fileID: 0}
 --- !u!1 &160596
 GameObject:
@@ -1216,7 +1217,7 @@ MonoBehaviour:
   handCollider: {fileID: 0}
   clearanceCheckMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   hand: {fileID: 0}
 --- !u!1 &165334
 GameObject:
