@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: PP_PostproWhater
+  m_Name: PP_PostproWhater 1
   m_EditorClassIdentifier: 
   components:
   - {fileID: 5168170464349080973}
@@ -94,15 +94,15 @@ MonoBehaviour:
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -1.23
   contrast:
     m_OverrideState: 1
-    m_Value: -8
+    m_Value: -10
     min: -100
     max: 100
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.38762906, g: 0.5237496, b: 0.5754717, a: 1}
+    m_Value: {r: 0.3882353, g: 0.5232775, b: 0.5764706, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
