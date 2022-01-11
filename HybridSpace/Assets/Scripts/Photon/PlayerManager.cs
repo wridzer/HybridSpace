@@ -6,7 +6,8 @@ using System.IO;
 
 public class PlayerManager : MonoBehaviour
 {
-    PhotonView PV;
+    private PhotonView PV;
+    private GameObject host;
 
     private void Awake()
     {
@@ -30,6 +31,14 @@ public class PlayerManager : MonoBehaviour
 
     void CreateController()
     {
-        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "TestPlayer"), new Vector3(50, 2, 50), Quaternion.identity);
+        if (PhotonNetwork.IsMasterClient)
+        {
+            host = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Diver"), new Vector3(50, 2, 50), Quaternion.identity);
+            RoomManager.SetHost(host);
+        } else
+        {
+            GameObject player = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "TestPlayer"), new Vector3(50, 2, 50), Quaternion.identity);
+            player.transform.parent = RoomManager.GetHost().transform;
+        }
     }
 }
