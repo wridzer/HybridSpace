@@ -16,7 +16,7 @@ public class PlayerControllerTest : MonoBehaviour
             if (!PV.IsMine)
             {
                 //controller.enabled = false;
-                Destroy(GetComponentInChildren<Camera>().gameObject);
+                Destroy(GetComponentInChildren<Camera>()?.gameObject);
             }
         }
     }
