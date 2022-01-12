@@ -21,18 +21,29 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Small_Fish_01_Red
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 9225cfdf8fe3d4e47b9c13b75ccafca8, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _METALLICSPECGLOSSMAP _NORMALMAP _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_447f1b3166ef4b0a9bd61b0867fed7db:
+        m_Texture: {fileID: 2800000, guid: be702568a2ff4314fa4a361da0139519, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9d2dde17858f40718bb8aa92f221f38c:
+        m_Texture: {fileID: 2800000, guid: 5f0ba9ce0b29a3a45b7ee1d2dae085af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c231c1142d5a42319e8acc2c2a7b603e:
+        m_Texture: {fileID: 2800000, guid: e97c0e2e6293d4446a37a0f40063ecb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: be702568a2ff4314fa4a361da0139519, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -90,6 +101,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_1a7d8e7aec9c40d09d2ad5d992c044f1: 0
+    - Vector1_740f10cf70ce403fb7db9d40757038e0: 1
+    - Vector1_858c195aa4944f62852dee4d522c46a2: 0.24
     - _AlphaClip: 1
     - _Blend: 0
     - _BumpScale: 0.96
