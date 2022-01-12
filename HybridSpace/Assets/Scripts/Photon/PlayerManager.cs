@@ -39,6 +39,7 @@ public class PlayerManager : MonoBehaviour
         {
             GameObject player = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "TestPlayer"), new Vector3(50, 2, 50), Quaternion.identity);
             player.transform.parent = RoomManager.GetHost().transform;
+            player.transform.localPosition = new Vector3(0.5f, 1.5f, 0f);
         }
     }
 }

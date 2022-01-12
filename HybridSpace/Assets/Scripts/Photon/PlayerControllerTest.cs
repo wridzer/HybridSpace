@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Linq;
 using UnityEngine;
 using Photon.Pun;
 
@@ -6,21 +7,17 @@ public class PlayerControllerTest : MonoBehaviour
 {
     PhotonView PV;
 
-    void Awake()
+    void Start()
     {
-        UnityTemplateProjects.SimpleCameraController[] controllers = GetComponents<UnityTemplateProjects.SimpleCameraController>();
-        foreach (UnityTemplateProjects.SimpleCameraController controller in controllers)
+        GameObject[] controllers = (GameObject[])GameObject.FindObjectsOfType<PhotonView>().OfType<GameObject>();
+        foreach (GameObject controller in controllers)
         {
-            controller.enabled = false;
-        }
-        PV = GetComponent<PhotonView>();
-        if (!PV.IsMine)
-        {
-            Destroy(GetComponentInChildren<Camera>().gameObject);
-        }
-        if (PV.IsMine)
-        {
-            PV.transform.GetComponent<UnityTemplateProjects.SimpleCameraController>().enabled = true;
+            PV = controller.transform.GetComponent<PhotonView>();
+            if (!PV.IsMine)
+            {
+                //controller.enabled = false;
+                Destroy(GetComponentInChildren<Camera>().gameObject);
+            }
         }
     }
 }
