@@ -23,12 +23,20 @@ Material:
         m_Texture: {fileID: 2800000, guid: adac8796b55544e42b85b66c8e721da6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - Texture2D_4b130d2d823c495b94125d3935697ce8:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_9d2dde17858f40718bb8aa92f221f38c:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_c231c1142d5a42319e8acc2c2a7b603e:
         m_Texture: {fileID: 2800000, guid: c895ac09c5f562b4798e88828f61e812, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a2a928d056df48e1a0daaf21a391508f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 9dd44608212163a4a94b6ac027b72b0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_e56b4be9b3b44f48bbce925db5d23983_Texture_1:
@@ -48,7 +56,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_1a7d8e7aec9c40d09d2ad5d992c044f1: 0
+    - Vector1_48e38b96c0e549f38f46cd20ccddc643: 0
+    - Vector1_50a51d334b014c298f45dbf16384b7aa: 0
+    - Vector1_730610164b9f4586b8e05fb08d401e96: 0
     - Vector1_740f10cf70ce403fb7db9d40757038e0: 5.9
     - Vector1_858c195aa4944f62852dee4d522c46a2: 1.58
-    m_Colors: []
+    m_Colors:
+    - Vector3_d3d9101c8b4049fcaaa437bf5ebc004b: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

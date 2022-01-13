@@ -8,19 +8,33 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: SchoolFish
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _EMISSION _ENVIRONMENTREFLECTIONS_OFF _METALLICSPECGLOSSMAP
-    _NORMALMAP _RECEIVE_SHADOWS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_Shader: {fileID: -6465566751694194690, guid: 9225cfdf8fe3d4e47b9c13b75ccafca8, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _METALLICSPECGLOSSMAP _NORMALMAP _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_447f1b3166ef4b0a9bd61b0867fed7db:
+        m_Texture: {fileID: 2800000, guid: 7e59988e97225fe4cb551638f2bc6e5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_4b130d2d823c495b94125d3935697ce8:
+        m_Texture: {fileID: 2800000, guid: 9dd44608212163a4a94b6ac027b72b0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9d2dde17858f40718bb8aa92f221f38c:
+        m_Texture: {fileID: 2800000, guid: 5f0ba9ce0b29a3a45b7ee1d2dae085af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c231c1142d5a42319e8acc2c2a7b603e:
+        m_Texture: {fileID: 2800000, guid: 4db38a227fdcc6e47892a794ff09ec0f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 7e59988e97225fe4cb551638f2bc6e5f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -61,6 +75,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a2a928d056df48e1a0daaf21a391508f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 9dd44608212163a4a94b6ac027b72b0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -78,6 +96,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_1a7d8e7aec9c40d09d2ad5d992c044f1: 0
+    - Vector1_48e38b96c0e549f38f46cd20ccddc643: 1.9
+    - Vector1_50a51d334b014c298f45dbf16384b7aa: 1.58
+    - Vector1_730610164b9f4586b8e05fb08d401e96: 1.5
+    - Vector1_858c195aa4944f62852dee4d522c46a2: 0
     - _AlphaClip: 1
     - _Blend: 0
     - _BumpScale: 0.99
@@ -105,6 +128,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_c74016632fb840e4935c56fb77cb976e: {r: 0, g: 5.2164755, b: 5.134541, a: 0}
+    - Vector3_d3d9101c8b4049fcaaa437bf5ebc004b: {r: 0.2, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 0.29622638, b: 0.35865802, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1024, g: 0, b: 12.605469, a: 1}

@@ -5418,23 +5418,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1153043598842812283, guid: 760aa38824b16384f8fce77651a3443f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.758595
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1153043598842812283, guid: 760aa38824b16384f8fce77651a3443f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6515625
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1153043598842812283, guid: 760aa38824b16384f8fce77651a3443f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1153043598842812283, guid: 760aa38824b16384f8fce77651a3443f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1153043598842812283, guid: 760aa38824b16384f8fce77651a3443f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 81.319
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1153043598842812283, guid: 760aa38824b16384f8fce77651a3443f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -6331,11 +6331,11 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1362232663}
-  - screenRelativeHeight: 0.25484157
+  - screenRelativeHeight: 0.029814595
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1362232663}
-  - screenRelativeHeight: 0.11605502
+  - screenRelativeHeight: 0.029814595
     fadeTransitionWidth: 0
     renderers: []
   m_Enabled: 1
@@ -6373,15 +6373,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6480825112266511315, guid: 64f9a181a7a15ed408aba6eb0b2dfbea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.5
+      value: -6.03
       objectReference: {fileID: 0}
     - target: {fileID: 6480825112266511315, guid: 64f9a181a7a15ed408aba6eb0b2dfbea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6
+      value: 1.32
       objectReference: {fileID: 0}
     - target: {fileID: 6480825112266511315, guid: 64f9a181a7a15ed408aba6eb0b2dfbea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.92
+      value: -1.2
       objectReference: {fileID: 0}
     - target: {fileID: 6480825112266511315, guid: 64f9a181a7a15ed408aba6eb0b2dfbea, type: 3}
       propertyPath: m_LocalRotation.w
