@@ -130,6 +130,8 @@ GameObject:
   - component: {fileID: -5568749134144546353}
   - component: {fileID: -6320493888460307636}
   - component: {fileID: 2744443799102987264}
+  - component: {fileID: 6287714133588990950}
+  - component: {fileID: 2608940505251833830}
   m_Layer: 0
   m_Name: TestPlayer
   m_TagString: Untagged
@@ -243,3 +245,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d8959f8ccf11764c84e5fc70c3bbfb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6287714133588990950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5852644296163525818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c6ab83a853e82242a46caf52692224e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 5240382766942804493}
+--- !u!114 &2608940505251833830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5852644296163525818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c90d14675ea609419fd5ff3537a2cfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diver: {fileID: 0}
+  offset: {x: 0.5, y: 1.5, z: 0}
