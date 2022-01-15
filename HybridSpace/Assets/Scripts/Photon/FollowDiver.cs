@@ -11,6 +11,7 @@ public class FollowDiver : MonoBehaviour
         if(diver != null)
         {
             transform.position = diver.transform.position + offset;
+            transform.rotation = diver.GetComponentInChildren<Camera>().transform.rotation;
         } else
         {
             diver = RoomManager.diver;

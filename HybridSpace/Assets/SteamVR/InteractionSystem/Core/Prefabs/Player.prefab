@@ -2810,6 +2810,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 160596}
     - target: {fileID: 6902379016215713581, guid: efdd5edc18960724ba600691dfc5f72f, type: 3}
+      propertyPath: rotateSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6902379016215713581, guid: efdd5edc18960724ba600691dfc5f72f, type: 3}
       propertyPath: cameraInstance
       value: 
       objectReference: {fileID: 125964}
