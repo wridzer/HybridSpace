@@ -41,6 +41,7 @@ public class PuzzleScrip : MonoBehaviour
             slider.value += sliderIncrease;
         }
 
+        //lerps slider color to red and back
         if(higher == false)
         {
             if (slider.value < redZone)
