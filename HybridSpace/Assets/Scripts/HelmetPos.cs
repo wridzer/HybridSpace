@@ -19,7 +19,5 @@ public class HelmetPos : MonoBehaviour
         Vector3 puntD = new Vector3(leftHand.transform.position.x + (difference.x * 0.5f), transform.position.y + cameraInstance.transform.forward.y, leftHand.transform.position.z + (difference.z * 0.5f));
         Vector3 lookDir = Vector3.RotateTowards(transform.forward, transform.position - puntD, rotateSpeed * Time.deltaTime, 0f);
         transform.rotation = Quaternion.LookRotation(lookDir);
-
-        //x rotation
     }
 }
