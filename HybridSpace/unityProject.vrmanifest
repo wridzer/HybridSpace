@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.hybridspace.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\Wridzer\\Documents\\HybridSpace\\HybridSpace\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\wridz\\Documents\\HybridSpace\\HybridSpace\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "HybridSpace [Testing]"
