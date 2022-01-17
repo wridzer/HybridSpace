@@ -1,3 +1,4 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,7 @@ public class HelmetPos : MonoBehaviour
     [SerializeField] private float rotateSpeed = 2.5f;
     [SerializeField] private Vector3 offsetPos = new Vector3(0, -0.045f, 0);
     [SerializeField] private Vector3 offsetRot = new Vector3(0, 90, 0);
+    private PhotonTransformView PTV;
 
     // Update is called once per frame
     void Update()
