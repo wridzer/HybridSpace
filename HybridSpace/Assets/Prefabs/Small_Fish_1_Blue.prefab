@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1153043598842812283}
   - component: {fileID: 2859702879128606942}
   - component: {fileID: 21185217902390292}
+  - component: {fileID: 1362232662}
   m_Layer: 0
   m_Name: Small_Fish_1_Blue
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1966876389967662529}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.08867946, y: 0.08867946, z: 0.08867946}
+  m_LocalScale: {x: 0.62929, y: 0.62929, z: 0.62929}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,7 +52,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -82,3 +82,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &1362232662
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966876389967662529}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 2.8574317
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 21185217902390292}
+  - screenRelativeHeight: 0.029814595
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 21185217902390292}
+  - screenRelativeHeight: 0.029814595
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
