@@ -138,9 +138,6 @@
             "m_Id": "c8d9af890abd402fb3061e86fe260855"
         },
         {
-            "m_Id": "bd51e9829a844d0dbe5a9ba2f9996af7"
-        },
-        {
             "m_Id": "cde2af3f9e25457e87f6abf79d479033"
         }
     ],
@@ -1062,10 +1059,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2918.39990234375,
-            "y": 2053.60009765625,
+            "x": 2264.800048828125,
+            "y": 896.7998657226563,
             "width": 208.0,
-            "height": 301.599853515625
+            "height": 302.39996337890627
         }
     },
     "m_Slots": [
@@ -1165,10 +1162,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2655.19970703125,
-            "y": 2004.0,
-            "width": 208.0,
-            "height": 325.60009765625
+            "x": 2001.5999755859375,
+            "y": 847.2000122070313,
+            "width": 207.9998779296875,
+            "height": 326.39996337890627
         }
     },
     "m_Slots": [
@@ -1398,10 +1395,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2449.60009765625,
-            "y": 2123.199951171875,
-            "width": 114.39990234375,
-            "height": 33.60009765625
+            "x": 1796.0,
+            "y": 966.3999633789063,
+            "width": 115.199951171875,
+            "height": 34.4000244140625
         }
     },
     "m_Slots": [
@@ -2758,10 +2755,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3196.800048828125,
-            "y": 1999.9998779296875,
+            "x": 2543.199951171875,
+            "y": 843.1998901367188,
             "width": 208.0,
-            "height": 277.60009765625
+            "height": 278.39996337890627
         }
     },
     "m_Slots": [
@@ -3265,17 +3262,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.GroupData",
-    "m_ObjectId": "bd51e9829a844d0dbe5a9ba2f9996af7",
-    "m_Title": "New Group",
-    "m_Position": {
-        "x": -4321.599609375,
-        "y": 144.0001220703125
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "be3dbb7bcbd64a06ac109450132e3c0d",
     "m_Id": 0,
@@ -3550,8 +3536,8 @@
     "m_ObjectId": "cde2af3f9e25457e87f6abf79d479033",
     "m_Title": "fresnel",
     "m_Position": {
-        "x": 40.0,
-        "y": 40.0
+        "x": 1771.19580078125,
+        "y": 785.232666015625
     }
 }
 
