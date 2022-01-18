@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private float movementSpeed = 1;
     private CharacterController characterController;
     [SerializeField] private GameObject helmet;
+    private bool playSound = true;
 
     private FMOD.Studio.EventInstance instance;
 
@@ -28,15 +29,18 @@ public class Movement : MonoBehaviour
         {
             Vector3 direction = Player.instance.hmdTransform.TransformDirection(new Vector3(input.axis.x, 0, input.axis.y));
             characterController.Move(Vector3.ProjectOnPlane(direction, Vector3.up) * movementSpeed * Time.deltaTime - new Vector3(0, 9.81f, 0)*Time.deltaTime);
-            FootstepSound();
+            if (playSound) { StartCoroutine(FootSteps()); }
         }
     }
 
-    void FootstepSound()
+    private IEnumerator FootSteps()
     {
+        playSound = false;
         instance = FMODUnity.RuntimeManager.CreateInstance("event:/Footsteps");
         instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
         instance.start();
         instance.release();
+        yield return new WaitForSeconds(1);
+        playSound = true;
     }
 }

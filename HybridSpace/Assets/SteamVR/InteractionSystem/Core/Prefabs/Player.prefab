@@ -322,7 +322,7 @@ MonoBehaviour:
   input:
     actionPath: /actions/default/in/Movement
     needsReinit: 0
-  movementSpeed: 5
+  movementSpeed: 2
   helmet: {fileID: 7082245069705215539}
 --- !u!114 &-3458572835170983379
 MonoBehaviour:
@@ -3021,14 +3021,14 @@ PrefabInstance:
       objectReference: {fileID: 125964}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efdd5edc18960724ba600691dfc5f72f, type: 3}
---- !u!1 &7082245069705215539 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1863997933206166501, guid: efdd5edc18960724ba600691dfc5f72f, type: 3}
-  m_PrefabInstance: {fileID: 8905710348298528214}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6084671719284273247 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3451561408130930057, guid: efdd5edc18960724ba600691dfc5f72f, type: 3}
+  m_PrefabInstance: {fileID: 8905710348298528214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7082245069705215539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1863997933206166501, guid: efdd5edc18960724ba600691dfc5f72f, type: 3}
   m_PrefabInstance: {fileID: 8905710348298528214}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1916826902638155688
@@ -3047,3 +3047,33 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &4508720904994774937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7082245069705215539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -881898424
+      Data2: 1227876354
+      Data3: -358451052
+      Data4: 466379901
+    Path: event:/Breathing
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
