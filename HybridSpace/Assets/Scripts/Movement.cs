@@ -9,7 +9,6 @@ public class Movement : MonoBehaviour
     [SerializeField] private SteamVR_Action_Vector2 input;
     [SerializeField] private float movementSpeed = 1;
     private CharacterController characterController;
-    [SerializeField] private GameObject helmet;
 
 
     // Start is called before the first frame update
@@ -21,7 +20,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (input.axis.magnitude > 0.1f)
+        if(input.axis.magnitude > 0.1f)
         {
             Vector3 direction = Player.instance.hmdTransform.TransformDirection(new Vector3(input.axis.x, 0, input.axis.y));
             characterController.Move(Vector3.ProjectOnPlane(direction, Vector3.up) * movementSpeed * Time.deltaTime - new Vector3(0, 9.81f, 0)*Time.deltaTime);

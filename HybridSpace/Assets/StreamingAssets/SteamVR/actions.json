@@ -103,10 +103,6 @@
     {
       "name": "/actions/mixedreality",
       "usage": "single"
-    },
-    {
-      "name": "/actions/NewSet",
-      "usage": "leftright"
     }
   ],
   "default_bindings": [
