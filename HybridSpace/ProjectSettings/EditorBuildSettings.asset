@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 8de515565ec22ad4db4aa59275220466
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Wridzer.unity
     guid: 67981662e34b54a43b024442f8dab537
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main_Scene.unity
     guid: e2fe47ea8483e43469901302af73158b
   m_configObjects:
