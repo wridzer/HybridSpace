@@ -16,17 +16,11 @@ public class RemoveCameras : MonoBehaviour
     {
         if (!PV.IsMine)
         {
-            try
+            //geef iedere player een soort selfdestruct-script met een interface zodat je deze hier kan aanroepen
+            GameObject otherPlayer = GetComponent<IPlayable>().IsOtherPlayer();
+            if(gameObject.tag == "Player")
             {
-                Debug.Log("Diver Joined");
-                Destroy(GetComponentInChildren<Camera>().gameObject);
-            }
-            catch 
-            {
-                Debug.Log("Boatcrew Joined");
-                Destroy(this.transform.Find("VRCamera"));
-                this.transform.Find("Diver").GetComponent<Valve.VR.InteractionSystem.Player>().enabled = false;
-                this.transform.Find("Helmet").GetComponent<HelmetPos>().enabled = false;
+                RoomManager.diver = otherPlayer;
             }
         }
     }

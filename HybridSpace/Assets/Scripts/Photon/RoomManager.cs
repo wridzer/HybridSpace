@@ -9,7 +9,7 @@ using System.IO;
 public class RoomManager : MonoBehaviourPunCallbacks
 {
     public static RoomManager Instance;
-    private static GameObject host;
+    public static GameObject diver { get; set; }
 
     private void Awake()
     {
@@ -39,17 +39,6 @@ public class RoomManager : MonoBehaviourPunCallbacks
         if(scene.buildIndex == 1)
         {
             GameObject newPlayer = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerManager"), Vector3.zero, Quaternion.identity);
-            PlayerStorage.AddPlayer(newPlayer);
         }
-    }
-
-    public static void SetHost(GameObject _host)
-    {
-        host = _host;
-    }
-
-    public static GameObject GetHost()
-    {
-        return host;
     }
 }

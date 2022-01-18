@@ -31,6 +31,11 @@ public static class PlayerStorage
         }
     }
 
+    public static GameObject GetPlayer(int _i)
+    {
+        return playerDict[_i];
+    }
+
     public static List<GameObject> GetPlayers()
     {
         List<GameObject> playerList = new List<GameObject>();
