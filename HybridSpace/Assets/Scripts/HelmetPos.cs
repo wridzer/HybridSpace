@@ -16,7 +16,7 @@ public class HelmetPos : MonoBehaviourPun
     private PhotonTransformView PTV;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector3 difference = rightHand.transform.position - leftHand.transform.position;
         transform.position = Camera.main.transform.position + offsetPos;
@@ -28,7 +28,7 @@ public class HelmetPos : MonoBehaviourPun
             currentRot = verticalLook;
         }
 
-        Vector3 puntD = new Vector3(leftHand.transform.position.x + (difference.x * 0.5f), currentRot, leftHand.transform.position.z + (difference.z * 0.5f));
+        Vector3 puntD = new Vector3(leftHand.transform.position.x + (difference.x * 0.5f), transform.position.y, leftHand.transform.position.z + (difference.z * 0.5f));
         Vector3 lookDir = Vector3.RotateTowards(transform.forward, transform.position - puntD, rotateSpeed * Time.deltaTime, 0f);
         transform.rotation = Quaternion.LookRotation(lookDir);
     }

@@ -8,6 +8,7 @@ public class ChestOpen : MonoBehaviour
     [SerializeField] private int numberOfSymbols = 3;
     private Animator animator;
     private FMOD.Studio.EventInstance instance;
+    private bool allSymbols = false;
 
     private void Start()
     {
@@ -18,17 +19,29 @@ public class ChestOpen : MonoBehaviour
     {
         if(symbolCount == numberOfSymbols)
         {
-
-            instance = FMODUnity.RuntimeManager.CreateInstance("event:/SymbolActive");
-            instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
-            instance.start();
-            instance.release();
-            animator.SetBool("chest_open", true);
+            allSymbols = true;
         }
     }
 
     public void ActivateSymbol()
     {
         symbolCount++;
+    }
+
+    private void OpenChest()
+    {
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/SymbolActive");
+        instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
+        instance.start();
+        instance.release();
+        animator.SetBool("chest_open", true);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player" && allSymbols)
+        {
+            OpenChest();
+        }
     }
 }

@@ -19,6 +19,8 @@ public class SymbolTrigger : MonoBehaviour
             instance.release();
 
             GetComponent<Collider>().enabled = false;
+
+            //Mijs
         }
     }
 }

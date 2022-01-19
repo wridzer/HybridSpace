@@ -15262,6 +15262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Diver
       objectReference: {fileID: 0}
+    - target: {fileID: 6842112725640056565, guid: c4289b9d6f541f041afd715eff57aa86, type: 3}
+      propertyPath: sceneViewId
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4289b9d6f541f041afd715eff57aa86, type: 3}
 --- !u!1 &1898436109 stripped
