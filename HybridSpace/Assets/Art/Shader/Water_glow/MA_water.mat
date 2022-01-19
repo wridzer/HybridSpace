@@ -54,7 +54,7 @@ Material:
     m_Floats:
     - Vector1_5f72703e7931459589f5c865bb05c67a: 11.89
     - Vector1_7351111bed274083a167afe662f3eb5c: 0.4
-    - Vector1_ae6c694192ea4cedbb712c8f44108865: 1.01
+    - Vector1_ae6c694192ea4cedbb712c8f44108865: 3
     - Vector1_ffb173e85e804a308e6794377f077bbb: 0.02
     m_Colors:
     - Color_f75ec6e376ca4bffaac275247d1bedc6: {r: 0, g: 4, b: 2.218522, a: 0}
