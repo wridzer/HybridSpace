@@ -253,6 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7989135801423556122}
   - component: {fileID: 7590155074899465787}
+  - component: {fileID: 2031832884}
   m_Layer: 0
   m_Name: SM_chest_wAnim
   m_TagString: Untagged
@@ -267,7 +268,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7319699605367862432}
-  m_LocalRotation: {x: -0, y: 0.7071067, z: -0, w: 0.70710695}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 26.734863, y: 0.00000047683716, z: 24.459145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -296,3 +297,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2031832884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7319699605367862432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6c0d992d58be040bce0b99e5fb6be8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfSymbols: 3

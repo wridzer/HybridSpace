@@ -97,13 +97,13 @@ namespace Valve.VR.InteractionSystem
 
                 GrabTypes bestGrabType = hand.GetBestGrabbingType();
 
-				if (rigidbody.velocity.magnitude >= catchingThreshold)
-				{
-					hand.AttachObject( gameObject, bestGrabType, attachmentFlags );
-					showHint = false;
-				}
                 if ( bestGrabType != GrabTypes.None )
 				{
+				    if (rigidbody.velocity.magnitude >= catchingThreshold)
+				    {
+					    hand.AttachObject( gameObject, bestGrabType, attachmentFlags );
+					    showHint = false;
+				    }
 				}
 			}
 
