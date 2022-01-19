@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChestOpen : MonoBehaviour
 {
-    private int symbolCount = 0;
+    public int symbolCount = 0;
     [SerializeField] private int numberOfSymbols = 3;
     private Animator animator;
     private FMOD.Studio.EventInstance instance;
@@ -30,7 +30,7 @@ public class ChestOpen : MonoBehaviour
 
     private void OpenChest()
     {
-        instance = FMODUnity.RuntimeManager.CreateInstance("event:/SymbolActive");
+        instance = FMODUnity.RuntimeManager.CreateInstance("event:/Chest");
         instance.set3DAttributes(RuntimeUtils.To3DAttributes(transform.position));
         instance.start();
         instance.release();

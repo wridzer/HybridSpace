@@ -6689,6 +6689,10 @@ PrefabInstance:
       propertyPath: onDetachFromHand.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2378700755053074568, guid: c8d70392b60df6242bd9d23eb17ed03d, type: 3}
+      propertyPath: m_Drag
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3678256911567273397, guid: c8d70392b60df6242bd9d23eb17ed03d, type: 3}
       propertyPath: m_RootOrder
       value: 7
