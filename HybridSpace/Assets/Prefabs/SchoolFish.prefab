@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7953180534914194550}
   - component: {fileID: 5313025757529532604}
   - component: {fileID: 6807821300857129249}
+  - component: {fileID: -1877919184879816473}
   m_Layer: 0
   m_Name: SchoolFish
   m_TagString: Untagged
@@ -101,3 +102,33 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-1877919184879816473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5961451676016822633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 735030873
+      Data2: 1225799679
+      Data3: 1029948054
+      Data4: -1113485446
+    Path: event:/Fish
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
