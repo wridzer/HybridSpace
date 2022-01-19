@@ -7,6 +7,8 @@ public class SymbolTrigger : MonoBehaviour
     [SerializeField] private GameObject ChestInstance;
     private FMOD.Studio.EventInstance instance;
 
+    public static int SH_col = Shader.PropertyToID("Color_Emision");
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
@@ -21,6 +23,7 @@ public class SymbolTrigger : MonoBehaviour
             GetComponent<Collider>().enabled = false;
 
             //Mijs
+            GetComponent<Material>().SetColor(SH_col, Color.black);
         }
     }
 }
